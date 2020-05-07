@@ -1,0 +1,28 @@
+{
+  "name": "code14",
+  "version": "1.0.0",
+  "description": "Reverse engineer the starter code provided and create a tutorial for the code. REVERSE ENGINEERING HW14: •\tPurpose: login app which is create the account login and logout and store it in the MySQL database •\tisAutheticated.js : insert to this file for authicated route which is limit route that if the client try to login they can login, but they can’t see the site if they not login. •\tConfig.json: wrapper that simplifies working with environment specific configuration files, connect to server. •\tIndex.js : connect database and import user information to login require by sequelize",
+  "main": "server.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/huonghuonglacey1020/code14.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/huonghuonglacey1020/code14/issues"
+  },
+  "homepage": "https://github.com/huonghuonglacey1020/code14#readme",
+  "dependencies": {
+    "express-session": "^1.17.1",
+    "fs": "0.0.1-security",
+    "mysql": "^2.18.1",
+    "passport": "^0.4.1",
+    "passport-local": "^1.0.0",
+    "sequelize": "^5.21.7"
+  }
+}
